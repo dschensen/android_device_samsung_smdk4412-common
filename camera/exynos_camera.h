@@ -35,6 +35,8 @@
 #include <hardware/hardware.h>
 #include <hardware/camera.h>
 
+#include "exynos_camera_parameters_extra.h"
+
 #ifndef _EXYNOS_CAMERA_H_
 #define _EXYNOS_CAMERA_H_
 
