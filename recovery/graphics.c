@@ -41,6 +41,9 @@
 #define PIXEL_FORMAT GGL_PIXEL_FORMAT_BGRA_8888
 #define PIXEL_SIZE   4
 
+typeset unsigned gr_set_t;
+typeset unsigned gr_clear;
+
 typedef struct {
     GGLSurface texture;
     unsigned cwidth;
