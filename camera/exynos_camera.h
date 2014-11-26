@@ -56,6 +56,15 @@
  * Structures
  */
 
+
+/*
+ * Extra Camera parameters
+ */
+
+#ifdef HAVE_ISO
+#include "exynos_camera_parameters_extra.h"
+#endif
+
 struct exynos_camera;
 
 struct list_head {
